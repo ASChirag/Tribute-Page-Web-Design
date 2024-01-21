@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.Main-Container{
+    background-color: white;
+    height: 2620px;
+}
+
+
+.Box-Container {
+    background-color: #eee;
+    width: 98.7%;
+    height: 2550px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    border-radius: 10px;
+}
+
+.Header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.Sub-Header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    font-size: 15px;
+    font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.Image-Container {
+    width: 97.5%;
+    height: 680px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+
+.Image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.Footer-Container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 22%;
+    top: 810px;
+    font-size: 14px;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.Content-Header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.Content {
+    width: 550px;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 950px;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+li {
+    padding: 15px;
+}
+
+.Quote {
+    margin-top: 50px;
+}
+
+.Content-Footer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2500px;
+    left: 20%;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 20px;
+}
